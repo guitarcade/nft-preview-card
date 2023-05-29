@@ -23,9 +23,9 @@ export default function Home() {
           </div>
         </div>
 
-        <a href="#" className="text-lg text-white hover:text-primary-2">
+        <h1 className="cursor-pointer text-lg text-white hover:text-primary-2">
           Equilibrium #3429
-        </a>
+        </h1>
         <p className="text-sm text-primary-1">
           Our Equilibrium collection promotes balance and calm.
         </p>
