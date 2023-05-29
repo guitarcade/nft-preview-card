@@ -7,7 +7,7 @@ export default function Home() {
         <div className="relative">
           <Image
             src={"/images/image-equilibrium.jpg"}
-            alt=""
+            alt="hero image"
             width={604}
             height={604}
             className="rounded-lg"
@@ -15,7 +15,7 @@ export default function Home() {
           <div className="absolute top-0 grid aspect-square w-full cursor-pointer place-content-center bg-primary-2/0 opacity-0 hover:bg-primary-2/30 hover:opacity-100">
             <Image
               src={"/images/icon-view.svg"}
-              alt=""
+              alt="view icon"
               width={43}
               height={43}
               className="rounded-lg"
@@ -33,7 +33,7 @@ export default function Home() {
           <p className="flex items-center gap-1 text-sm text-primary-2">
             <Image
               src={"/images/icon-ethereum.svg"}
-              alt=""
+              alt="ethereum icon"
               width={11}
               height={18}
               className="aspect-square rounded-lg"
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="flex items-center gap-2 border-t-[1px] border-t-neutral-3 py-4">
           <Image
             src={"/images/image-avatar.png"}
-            alt=""
+            alt="avatar image"
             width={32}
             height={32}
             className="rounded-full border-[1px] border-white/60 "
