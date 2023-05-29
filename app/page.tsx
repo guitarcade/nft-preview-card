@@ -4,14 +4,28 @@ export default function Home() {
   return (
     <main className="grid min-h-screen place-content-center bg-neutral-1 ">
       <div className="grid max-w-xs gap-4 rounded-lg bg-neutral-2 p-4 shadow-2xl">
-        <Image
-          src={"/images/image-equilibrium.jpg"}
-          alt=""
-          width={604}
-          height={604}
-          className="aspect-square rounded-lg"
-        />
-        <h1 className="text-lg text-white">Equilibrium #3429</h1>
+        <div className="relative">
+          <Image
+            src={"/images/image-equilibrium.jpg"}
+            alt=""
+            width={604}
+            height={604}
+            className="rounded-lg"
+          />
+          <div className="absolute top-0 grid aspect-square w-full cursor-pointer place-content-center bg-primary-2/0 opacity-0 hover:bg-primary-2/30 hover:opacity-100">
+            <Image
+              src={"/images/icon-view.svg"}
+              alt=""
+              width={43}
+              height={43}
+              className="rounded-lg"
+            />
+          </div>
+        </div>
+
+        <a href="#" className="text-lg text-white hover:text-primary-2">
+          Equilibrium #3429
+        </a>
         <p className="text-sm text-primary-1">
           Our Equilibrium collection promotes balance and calm.
         </p>
@@ -37,7 +51,10 @@ export default function Home() {
             className="rounded-full border-[1px] border-white/60 "
           />
           <p className="text-xs text-primary-1">
-            Creation of <span className="text-white/90">Jules Wyvern</span>
+            Creation of{" "}
+            <a href="#" className="text-white/90 hover:text-primary-2">
+              Jules Wyvern
+            </a>
           </p>
         </div>
       </div>
