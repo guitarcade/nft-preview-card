@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="grid min-h-screen place-content-center bg-neutral-1">
-      <div className="grid max-w-xs gap-4 rounded-lg bg-neutral-2 p-4">
+    <main className="grid min-h-screen place-content-center bg-neutral-1 ">
+      <div className="grid max-w-xs gap-4 rounded-lg bg-neutral-2 p-4 shadow-2xl">
         <Image
           src={"/images/image-equilibrium.jpg"}
           alt=""
